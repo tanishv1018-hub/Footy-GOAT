@@ -1,0 +1,148 @@
+.score-verdict {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.2rem;
+  margin-top: 0.4rem;
+  animation: score-verdict-enter 0.6s cubic-bezier(0.16, 1, 0.3, 1) both;
+  animation-delay: 0.45s;
+}
+
+.score-verdict-title-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.65rem;
+  flex-wrap: wrap;
+  max-width: 100%;
+  padding: 0 0.5rem;
+}
+
+/* No text-shadow/glow/filter here by design - the tier color alone should
+   carry the visual weight, kept crisp and legible against the dark bg. */
+.score-verdict-title {
+  margin: 0;
+  font-family: 'Anton', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  line-height: 1.05;
+  font-size: clamp(1.9rem, 8.5vw, 4.5rem);
+  text-align: center;
+  overflow-wrap: break-word;
+  -webkit-text-stroke: 0.02em currentColor;
+}
+
+.score-verdict-crown {
+  font-size: clamp(1.6rem, 6vw, 2.5rem);
+  line-height: 1;
+  filter: drop-shadow(0 2px 3px rgba(0, 0, 0, 0.5));
+}
+
+.score-verdict-laurel {
+  flex-shrink: 0;
+  font-size: clamp(1.1rem, 4vw, 1.7rem);
+  opacity: 0.85;
+}
+
+.score-verdict-laurel-right {
+  transform: scaleX(-1);
+}
+
+/* Tier: 0-399 - bright red, polished rather than an error state */
+.score-verdict-amateur .score-verdict-title {
+  color: var(--color-red);
+}
+
+/* Tier: 400-499 - bright orange */
+.score-verdict-pro .score-verdict-title {
+  color: var(--color-orange);
+}
+
+/* Tier: 500-549 - bright blue */
+.score-verdict-solid .score-verdict-title {
+  color: var(--color-blue);
+}
+
+/* Tier: 550-599 - bright blue/purple */
+.score-verdict-elite .score-verdict-title {
+  color: var(--color-purple);
+}
+
+/* Tier: 600-649 - bright cyan/blue */
+.score-verdict-world-class .score-verdict-title {
+  color: var(--color-cyan);
+}
+
+/* Tier: 650-679 - bright cyan, kept distinct from GOAT's neon green */
+.score-verdict-all-time-great .score-verdict-title {
+  color: var(--color-cyan);
+}
+
+/* Tier: 680-699 - bright neon green, laurel-flanked */
+.score-verdict-goat .score-verdict-title {
+  color: var(--color-neon);
+}
+
+/* Tier: 700 - the most dramatic, crisp gold treatment */
+.score-verdict-goat-of-goats .score-verdict-title {
+  color: var(--color-gold);
+  font-size: clamp(2.1rem, 9.5vw, 5.1rem);
+}
+
+/* The 700 tier still gets a subtle premium animation, but it lives on the
+   crown icon only - the verdict letters themselves never move or glow. */
+.score-verdict-goat-of-goats .score-verdict-crown {
+  animation: score-verdict-crown-pulse 2.4s ease-in-out 0.95s infinite;
+}
+
+@keyframes score-verdict-enter {
+  from {
+    opacity: 0;
+    transform: translateY(14px) scale(0.97);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@keyframes score-verdict-crown-pulse {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .score-verdict {
+    animation: none;
+  }
+
+  .score-verdict-goat-of-goats .score-verdict-crown {
+    animation: none;
+  }
+}
+
+@media (max-width: 420px) {
+  .score-verdict-title {
+    letter-spacing: 0.02em;
+  }
+}
+
+@media (max-width: 340px) {
+  .score-verdict-title {
+    letter-spacing: 0;
+  }
+
+  .score-verdict-crown {
+    font-size: 1.5rem;
+  }
+
+  .score-verdict-laurel {
+    font-size: 1rem;
+  }
+}

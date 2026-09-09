@@ -1,0 +1,52 @@
+:root {
+  --color-bg: #060706;
+  --color-bg-elevated: #0d0f0d;
+  --color-surface: #121412;
+  --color-surface-alt: #181b18;
+  --color-border: #262b26;
+  --color-border-strong: #3a423a;
+
+  --color-neon: #39ff6e;
+  --color-neon-bright: #8dffb4;
+  --color-neon-dim: rgba(57, 255, 110, 0.22);
+  --color-neon-glow: rgba(57, 255, 110, 0.5);
+
+  --color-text: #f5f7f4;
+  --color-text-muted: #8b928b;
+  --color-text-dim: #565c56;
+
+  --color-red: #ff4b4b;
+  --color-red-dim: rgba(255, 75, 75, 0.4);
+  --color-yellow: #ffd23f;
+  --color-yellow-dim: rgba(255, 210, 63, 0.4);
+
+  --color-orange: #ff9d4d;
+  --color-orange-dim: rgba(255, 157, 77, 0.4);
+
+  --color-blue: #4fb8ff;
+  --color-blue-dim: rgba(79, 184, 255, 0.4);
+
+  --color-purple: #a172ff;
+  --color-purple-dim: rgba(161, 114, 255, 0.4);
+
+  --color-cyan: #2fe0ff;
+  --color-cyan-dim: rgba(47, 224, 255, 0.4);
+
+  --color-gold: #ffd447;
+  --color-gold-bright: #ffe58a;
+  --color-gold-dim: rgba(255, 212, 71, 0.35);
+  --color-gold-glow: rgba(255, 212, 71, 0.6);
+
+  --font-heading: 'Bebas Neue', 'Arial Narrow', Impact, sans-serif;
+  --font-body: system-ui, 'Segoe UI', Roboto, sans-serif;
+
+  --radius-sm: 6px;
+  --radius-md: 14px;
+  --radius-lg: 24px;
+
+  --shadow-neon: 0 0 24px var(--color-neon-dim);
+  --shadow-neon-strong: 0 0 44px var(--color-neon-glow);
+
+  --pitch-grid: linear-gradient(rgba(57, 255, 110, 0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(57, 255, 110, 0.05) 1px, transparent 1px);
+}

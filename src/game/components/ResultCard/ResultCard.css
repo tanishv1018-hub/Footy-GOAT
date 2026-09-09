@@ -1,0 +1,158 @@
+.result-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.7rem;
+  padding: 1.4rem 1.1rem 1.2rem;
+  background: var(--color-bg-elevated);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  animation: result-card-reveal 0.45s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+.result-card-identity {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.result-card-identity-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.15rem;
+}
+
+.result-card-eyebrow {
+  margin: 0;
+  font-size: 0.62rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--color-text-dim);
+}
+
+.result-card-name {
+  margin: 0;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--color-text);
+  text-align: center;
+}
+
+.result-card-trait-row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.15rem;
+}
+
+.result-card-trait {
+  margin: 0;
+  font-family: var(--font-heading);
+  font-size: 1rem;
+  letter-spacing: 0.12em;
+  color: var(--color-text-muted);
+}
+
+.result-card-rating-row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.1rem;
+  margin-top: 0.15rem;
+}
+
+.result-card-rating {
+  margin: 0;
+  font-family: var(--font-heading);
+  font-size: 2.6rem;
+  line-height: 1;
+}
+
+.result-card-rating-red {
+  color: var(--color-red);
+  text-shadow: 0 0 18px var(--color-red-dim);
+}
+
+.result-card-rating-yellow {
+  color: var(--color-yellow);
+  text-shadow: 0 0 18px var(--color-yellow-dim);
+}
+
+.result-card-rating-green {
+  color: var(--color-neon);
+  text-shadow: 0 0 22px var(--color-neon-glow);
+}
+
+/* Border tint matches the rating tier for quick scanning at a glance. */
+.result-card-red {
+  border-color: var(--color-red-dim);
+}
+
+.result-card-yellow {
+  border-color: var(--color-yellow-dim);
+}
+
+.result-card-green {
+  border-color: var(--color-neon-dim);
+}
+
+/* Special treatment for a perfect 100 - stronger glow + subtle pulse, still green. */
+.result-card-perfect {
+  border: 1px solid var(--color-neon);
+  box-shadow: var(--shadow-neon-strong);
+  animation:
+    result-card-reveal 0.45s cubic-bezier(0.16, 1, 0.3, 1) both,
+    result-card-perfect-pulse 1.8s ease-in-out 0.6s 2;
+}
+
+.result-card-rating-perfect {
+  text-shadow: 0 0 30px var(--color-neon-glow), 0 0 8px var(--color-neon-bright);
+}
+
+.result-card-perfect-tag {
+  position: absolute;
+  top: -10px;
+  right: 14px;
+  background: var(--color-neon);
+  color: #05130a;
+  font-family: var(--font-heading);
+  font-size: 0.62rem;
+  letter-spacing: 0.14em;
+  padding: 0.2rem 0.55rem;
+  border-radius: 999px;
+  box-shadow: 0 0 14px var(--color-neon-glow);
+}
+
+@keyframes result-card-reveal {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes result-card-perfect-pulse {
+  0%,
+  100% {
+    box-shadow: var(--shadow-neon-strong);
+  }
+  50% {
+    box-shadow: 0 0 60px var(--color-neon-glow);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .result-card {
+    animation: none;
+  }
+
+  .result-card-perfect {
+    animation: none;
+  }
+}

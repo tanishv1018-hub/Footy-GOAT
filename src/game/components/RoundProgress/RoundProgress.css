@@ -1,0 +1,56 @@
+.round-progress {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.7rem;
+  width: 100%;
+  max-width: 480px;
+}
+
+.round-progress-label {
+  font-family: var(--font-heading);
+  letter-spacing: 0.16em;
+  color: var(--color-neon);
+  text-shadow: 0 0 16px var(--color-neon-dim);
+  font-size: 1.15rem;
+}
+
+.round-progress-track {
+  display: flex;
+  gap: 0.4rem;
+  width: 100%;
+}
+
+.round-progress-segment {
+  flex: 1;
+  height: 6px;
+  border-radius: 999px;
+  background: var(--color-border);
+  transition: background 0.2s ease, box-shadow 0.2s ease;
+}
+
+.round-progress-segment-done {
+  background: var(--color-neon);
+}
+
+.round-progress-segment-active {
+  background: var(--color-neon-dim);
+  box-shadow: 0 0 10px var(--color-neon-dim);
+  animation: round-progress-pulse 1.6s ease-in-out infinite;
+}
+
+@keyframes round-progress-pulse {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.55;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .round-progress-segment-active {
+    animation: none;
+  }
+}

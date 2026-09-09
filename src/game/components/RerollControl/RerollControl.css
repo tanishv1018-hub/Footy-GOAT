@@ -1,0 +1,50 @@
+.reroll-control {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.45rem;
+  max-width: 100%;
+  padding: 0.6rem 1.2rem;
+  border-radius: 999px;
+  font-family: var(--font-heading);
+  font-size: 0.85rem;
+  letter-spacing: 0.1em;
+  text-align: center;
+  cursor: pointer;
+  touch-action: manipulation;
+  transition:
+    transform 0.15s ease,
+    border-color 0.2s ease,
+    background 0.2s ease,
+    color 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.reroll-control-icon {
+  font-size: 1rem;
+  line-height: 1;
+}
+
+.reroll-control-available {
+  background: transparent;
+  border: 1px solid var(--color-border-strong);
+  color: var(--color-neon);
+}
+
+.reroll-control-available:hover {
+  border-color: var(--color-neon);
+  background: var(--color-neon-dim);
+  box-shadow: var(--shadow-neon);
+  transform: translateY(-1px);
+}
+
+.reroll-control-available:active {
+  transform: scale(0.96);
+}
+
+.reroll-control-used {
+  background: transparent;
+  border: 1px solid var(--color-border);
+  color: var(--color-text-dim);
+  cursor: not-allowed;
+}

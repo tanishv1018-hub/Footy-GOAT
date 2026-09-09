@@ -1,0 +1,47 @@
+.score-summary {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.3rem;
+  animation: score-summary-enter 0.6s cubic-bezier(0.16, 1, 0.3, 1) both;
+  animation-delay: 0.3s;
+}
+
+.score-summary-label {
+  margin: 0;
+  font-size: 0.85rem;
+  letter-spacing: 0.35em;
+  text-transform: uppercase;
+  color: var(--color-text-muted);
+}
+
+.score-summary-value {
+  margin: 0;
+  font-family: var(--font-heading);
+  font-weight: 700;
+  font-size: clamp(3.5rem, 16vw, 6.5rem);
+  line-height: 1;
+  color: var(--color-neon);
+}
+
+.score-summary-max {
+  font-size: 0.4em;
+  color: var(--color-text-muted);
+}
+
+@keyframes score-summary-enter {
+  from {
+    opacity: 0;
+    transform: translateY(16px) scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .score-summary {
+    animation: none;
+  }
+}

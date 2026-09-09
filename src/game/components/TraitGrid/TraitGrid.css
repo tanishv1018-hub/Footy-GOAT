@@ -1,0 +1,82 @@
+.trait-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+  gap: 0.85rem;
+  width: 100%;
+  max-width: 680px;
+}
+
+.trait-card {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 3.5rem;
+  padding: 1.2rem 0.75rem;
+  border-radius: var(--radius-md);
+  font-family: var(--font-heading);
+  font-size: 1.05rem;
+  letter-spacing: 0.1em;
+  cursor: pointer;
+  touch-action: manipulation;
+  transition:
+    transform 0.15s ease,
+    border-color 0.2s ease,
+    background 0.2s ease,
+    box-shadow 0.2s ease,
+    color 0.2s ease;
+}
+
+.trait-card-available {
+  background: var(--color-surface);
+  border: 2px solid var(--color-border-strong);
+  color: var(--color-text);
+}
+
+.trait-card-available:hover {
+  border-color: var(--color-neon);
+  background: var(--color-neon-dim);
+  color: var(--color-neon-bright);
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-neon);
+}
+
+.trait-card-available:focus-visible {
+  outline: 2px solid var(--color-neon);
+  outline-offset: 2px;
+}
+
+.trait-card-available:active {
+  transform: scale(0.95) translateY(0);
+  background: var(--color-neon-dim);
+  border-color: var(--color-neon);
+  box-shadow: none;
+  transition-duration: 0.05s;
+}
+
+.trait-card-locked {
+  background: var(--color-bg-elevated);
+  border: 2px solid var(--color-border);
+  color: var(--color-text-dim);
+  cursor: not-allowed;
+  opacity: 0.7;
+}
+
+.trait-card-locked-tag {
+  position: absolute;
+  top: -9px;
+  right: -9px;
+  background: var(--color-border);
+  color: var(--color-text-dim);
+  font-size: 0.6rem;
+  letter-spacing: 0.08em;
+  padding: 0.2rem 0.5rem;
+  border-radius: 999px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .trait-card-available:hover,
+  .trait-card-available:active {
+    transform: none;
+  }
+}

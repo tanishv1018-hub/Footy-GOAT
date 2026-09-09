@@ -1,0 +1,184 @@
+.game-page {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 1.5rem;
+  background:
+    radial-gradient(circle at 50% 15%, var(--color-neon-dim), transparent 55%),
+    var(--pitch-grid),
+    var(--color-bg);
+  background-size: auto, 44px 44px, auto;
+  background-position: center, center, center;
+  text-align: center;
+}
+
+/* Shared brand mark used on the drafting screen */
+
+.game-page-brand {
+  margin: 0;
+  font-family: var(--font-heading);
+  font-size: 1.1rem;
+  letter-spacing: 0.22em;
+  color: var(--color-text-muted);
+}
+
+.game-page-brand-accent {
+  color: var(--color-neon);
+  text-shadow: 0 0 18px var(--color-neon-dim);
+}
+
+/* Start screen */
+
+.game-page-start-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  max-width: 640px;
+}
+
+.game-page-eyebrow {
+  color: var(--color-text-muted);
+  font-size: 0.8rem;
+  letter-spacing: 0.32em;
+  text-transform: uppercase;
+}
+
+.game-page-title {
+  font-size: clamp(3.25rem, 13vw, 6.5rem);
+  line-height: 1;
+  color: var(--color-text);
+}
+
+.game-page-title-accent {
+  color: var(--color-neon);
+  text-shadow: var(--shadow-neon-strong);
+}
+
+.game-page-subtitle {
+  font-size: clamp(1.25rem, 5vw, 2rem);
+  color: var(--color-text-muted);
+  margin-top: -0.25rem;
+  letter-spacing: 0.06em;
+}
+
+.game-page-explainer {
+  color: var(--color-text-muted);
+  font-size: 1rem;
+  max-width: 480px;
+  margin: 0.5rem 0 1rem;
+  line-height: 1.6;
+}
+
+.game-page-start-content .btn-primary {
+  margin-top: 0.5rem;
+}
+
+/* Drafting screen */
+
+.game-page-drafting {
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.game-page-round {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  width: 100%;
+  animation: game-page-round-enter 0.35s ease-out both;
+}
+
+@keyframes game-page-round-enter {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .game-page-round {
+    animation: none;
+  }
+}
+
+.game-page-trait-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.9rem;
+  width: 100%;
+}
+
+.game-page-trait-prompt {
+  color: var(--color-text-muted);
+  font-size: 0.9rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+/* Reveal screen */
+
+.game-page-reveal {
+  flex-direction: column;
+  gap: 2.25rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.game-page-reveal-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.1rem;
+  width: 100%;
+}
+
+.game-page-reveal-tag {
+  margin: 0;
+  padding: 0.4rem 1.2rem;
+  border-radius: 999px;
+  border: 1px solid var(--color-neon);
+  background: var(--color-neon-dim);
+  color: var(--color-neon-bright);
+  font-family: var(--font-heading);
+  letter-spacing: 0.18em;
+  font-size: 0.8rem;
+}
+
+.game-page-complete-title {
+  font-size: clamp(2.1rem, 8vw, 3.5rem);
+  color: var(--color-text);
+}
+
+.result-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 1rem;
+  width: 100%;
+  max-width: 960px;
+}
+
+.game-page-play-again {
+  margin-top: 0.5rem;
+}
+
+@media (max-width: 480px) {
+  .game-page {
+    padding: 1.75rem 1.1rem;
+  }
+
+  .game-page-explainer {
+    font-size: 0.9rem;
+  }
+
+  .result-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
