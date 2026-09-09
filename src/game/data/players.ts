@@ -1073,11 +1073,11 @@ export const PLAYERS: Player[] = [
     ratings: {
       pace: 76,
       shooting: 84,
-      passing: 98,
+      passing: 97,
       defending: 40,
       physical: 66,
-      dribbling: 92,
-      iq: 97,
+      dribbling: 95,
+      iq: 96,
     },
   },
   {
