@@ -1967,7 +1967,7 @@ export const PLAYERS: Player[] = [
       shooting: 30,
       passing: 76,
       defending: 94,
-      physical: 88,
+      physical: 92,
       dribbling: 52,
       iq: 91,
     },
