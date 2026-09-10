@@ -353,13 +353,13 @@ export const PLAYERS: Player[] = [
     imageUrl: '/players/marcelo.jpg',
     primePeriod: '2014-2017',
     ratings: {
-      pace: 87,
-      shooting: 71,
-      passing: 89,
+      pace: 89,
+      shooting: 75,
+      passing: 93,
       defending: 64,
       physical: 76,
-      dribbling: 93,
-      iq: 81,
+      dribbling: 95,
+      iq: 91,
     },
   },
   {
@@ -1733,7 +1733,7 @@ export const PLAYERS: Player[] = [
     },
   },
   {
-    id: 'Jackson',
+    id: 'jackson',
     name: 'Nicholas Jackson',
     nationality: 'Senegal',
     position: 'ST',
