@@ -285,13 +285,13 @@ export const PLAYERS: Player[] = [
     imageUrl: '/players/neymar.jpg',
     primePeriod: '2015-2018',
     ratings: {
-      pace: 92,
-      shooting: 91,
-      passing: 90,
+      pace: 93,
+      shooting: 93,
+      passing: 95,
       defending: 34,
       physical: 74,
       dribbling: 100,
-      iq: 91,
+      iq: 98,
     },
   },
   {
@@ -815,12 +815,12 @@ export const PLAYERS: Player[] = [
     primePeriod: '2004-2009',
     ratings: {
       pace: 88,
-      shooting: 93,
+      shooting: 97,
       passing: 95,
-      defending: 77,
-      physical: 92,
+      defending: 79,
+      physical: 93,
       dribbling: 79,
-      iq: 93,
+      iq: 94,
     },
   },
   {
@@ -832,7 +832,7 @@ export const PLAYERS: Player[] = [
     primePeriod: '2004-2010',
     ratings: {
       pace: 77,
-      shooting: 95,
+      shooting: 97,
       passing: 92,
       defending: 68,
       physical: 87,
@@ -970,7 +970,7 @@ export const PLAYERS: Player[] = [
     primePeriod: '2009-2012',
     ratings: {
       pace: 90,
-      shooting: 94,
+      shooting: 96,
       passing: 91,
       defending: 44,
       physical: 95,
