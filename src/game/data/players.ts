@@ -1380,7 +1380,7 @@ export const PLAYERS: Player[] = [
     primePeriod: '2022-2025',
     ratings: {
       pace: 95,
-      shooting: 81,
+      shooting: 95,
       passing: 87,
       defending: 83,
       physical: 96,
