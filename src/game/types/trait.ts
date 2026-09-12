@@ -7,6 +7,8 @@ export const ALL_TRAITS = [
   'physical',
   'dribbling',
   'iq',
+  'heading',
+  'setPieces',
 ] as const
 
 export type Trait = (typeof ALL_TRAITS)[number]
@@ -20,4 +22,6 @@ export const TRAIT_LABELS: Record<Trait, string> = {
   physical: 'PHYSICAL',
   dribbling: 'DRIBBLING',
   iq: 'IQ',
+  heading: 'HEADING',
+  setPieces: 'SET PIECES',
 }

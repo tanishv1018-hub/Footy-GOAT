@@ -28,15 +28,17 @@ function GamePage() {
     return (
       <main className="game-page game-page-start">
         <div className="game-page-start-content">
-          <p className="game-page-eyebrow">7 Rounds. 7 Traits. Zero Ratings.</p>
+          <p className="game-page-eyebrow">
+            {totalRounds} Rounds. {totalRounds} Traits. Zero Ratings.
+          </p>
           <h1 className="game-page-title">
             FOOTY <span className="game-page-title-accent">GOAT</span>
           </h1>
           <h2 className="game-page-subtitle">PERFECT FOOTBALLER</h2>
           <p className="game-page-explainer">
             Each round drafts one random footballer. You'll see who they are - never how good
-            they are. Assign every player exactly one unused trait, blind. Once all 7 traits are
-            locked in, every rating is revealed and added up into your final score.
+            they are. Assign every player exactly one unused trait, blind. Once all {totalRounds}{' '}
+            traits are locked in, every rating is revealed and added up into your final score.
           </p>
           <Button onClick={startGame}>START GAME</Button>
         </div>

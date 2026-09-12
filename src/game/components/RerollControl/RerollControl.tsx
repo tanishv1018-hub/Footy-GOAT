@@ -23,7 +23,7 @@ function RerollControl({ rerollsRemaining, onReroll }: RerollControlProps) {
       <span className="reroll-control-icon" aria-hidden="true">
         ⟲
       </span>
-      {available ? 'REROLL PLAYER · 1 LEFT' : 'REROLL USED'}
+      {available ? `REROLL PLAYER · ${rerollsRemaining} LEFT` : 'REROLL USED'}
     </button>
   )
 }

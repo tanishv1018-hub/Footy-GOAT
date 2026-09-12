@@ -49,48 +49,53 @@
   transform: scaleX(-1);
 }
 
-/* Tier: 0-399 - bright red, polished rather than an error state */
+/* Tier: 0-639 - muted/desaturated, reads as literally "washed out" */
+.score-verdict-washed .score-verdict-title {
+  color: var(--color-text-dim);
+}
+
+/* Tier: 640-679 - bright red, polished rather than an error state */
 .score-verdict-amateur .score-verdict-title {
   color: var(--color-red);
 }
 
-/* Tier: 400-499 - bright orange */
+/* Tier: 680-719 - bright orange */
 .score-verdict-pro .score-verdict-title {
   color: var(--color-orange);
 }
 
-/* Tier: 500-549 - bright blue */
+/* Tier: 720-759 - bright blue */
 .score-verdict-solid .score-verdict-title {
   color: var(--color-blue);
 }
 
-/* Tier: 550-599 - bright blue/purple */
+/* Tier: 760-799 - bright blue/purple */
 .score-verdict-elite .score-verdict-title {
   color: var(--color-purple);
 }
 
-/* Tier: 600-649 - bright cyan/blue */
+/* Tier: 800-839 - bright cyan/blue */
 .score-verdict-world-class .score-verdict-title {
   color: var(--color-cyan);
 }
 
-/* Tier: 650-679 - bright cyan, kept distinct from GOAT's neon green */
+/* Tier: 840-869 - bright cyan, kept distinct from GOAT's neon green */
 .score-verdict-all-time-great .score-verdict-title {
   color: var(--color-cyan);
 }
 
-/* Tier: 680-699 - bright neon green, laurel-flanked */
+/* Tier: 870-894 - bright neon green, laurel-flanked */
 .score-verdict-goat .score-verdict-title {
   color: var(--color-neon);
 }
 
-/* Tier: 700 - the most dramatic, crisp gold treatment */
+/* Tier: 895-900 - the most dramatic, crisp gold treatment */
 .score-verdict-goat-of-goats .score-verdict-title {
   color: var(--color-gold);
   font-size: clamp(2.1rem, 9.5vw, 5.1rem);
 }
 
-/* The 700 tier still gets a subtle premium animation, but it lives on the
+/* The top tier still gets a subtle premium animation, but it lives on the
    crown icon only - the verdict letters themselves never move or glow. */
 .score-verdict-goat-of-goats .score-verdict-crown {
   animation: score-verdict-crown-pulse 2.4s ease-in-out 0.95s infinite;

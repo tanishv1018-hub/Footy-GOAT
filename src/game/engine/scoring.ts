@@ -7,7 +7,7 @@ export function calculateFinalScore(selections: DraftSelection[]): number {
   return selections.reduce((sum, selection) => sum + selection.rating, 0)
 }
 
-/** Reveals ratings and totals the score. Throws if called before all 7 traits are assigned. */
+/** Reveals ratings and totals the score. Throws if called before all traits are assigned. */
 export function getFinalResult(state: GameState): FinalResult {
   if (!isDraftComplete(state)) {
     throw new Error('Cannot compute the final result before the draft is complete.')

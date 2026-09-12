@@ -21,6 +21,8 @@ export const PLAYERS: Player[] = [
       dribbling: 100,
       iq: 100,
     },
+    heading: 55,
+    setPieces: 95,
   },
   {
     id: 'cristiano-ronaldo',
@@ -38,6 +40,8 @@ export const PLAYERS: Player[] = [
       dribbling: 96,
       iq: 94,
     },
+    heading: 100,
+    setPieces: 90,
   },
   {
     id: 'pele',
@@ -55,6 +59,8 @@ export const PLAYERS: Player[] = [
       dribbling: 98,
       iq: 100,
     },
+    heading: 97,
+    setPieces: 82,
   },
   {
     id: 'maradona',
@@ -72,6 +78,8 @@ export const PLAYERS: Player[] = [
       dribbling: 100,
       iq: 96,
     },
+    heading: 52,
+    setPieces: 96,
   },
   {
     id: 'ronaldo-nazario',
@@ -89,6 +97,8 @@ export const PLAYERS: Player[] = [
       dribbling: 100,
       iq: 90,
     },
+    heading: 62,
+    setPieces: 58,
   },
   {
     id: 'maldini',
@@ -106,6 +116,8 @@ export const PLAYERS: Player[] = [
       dribbling: 55,
       iq: 100,
     },
+    heading: 93,
+    setPieces: 42,
   },
   {
     id: 'zidane',
@@ -123,6 +135,8 @@ export const PLAYERS: Player[] = [
       dribbling: 98,
       iq: 100,
     },
+    heading: 78,
+    setPieces: 82,
   },
   {
     id: 'ronaldinho',
@@ -140,6 +154,8 @@ export const PLAYERS: Player[] = [
       dribbling: 100,
       iq: 90,
     },
+    heading: 58,
+    setPieces: 94,
   },
   {
     id: 'xavi',
@@ -157,6 +173,8 @@ export const PLAYERS: Player[] = [
       dribbling: 80,
       iq: 100,
     },
+    heading: 50,
+    setPieces: 65,
   },
   {
     id: 'iniesta',
@@ -174,6 +192,8 @@ export const PLAYERS: Player[] = [
       dribbling: 98,
       iq: 98,
     },
+    heading: 48,
+    setPieces: 60,
   },
   {
     id: 'henry',
@@ -191,6 +211,8 @@ export const PLAYERS: Player[] = [
       dribbling: 93,
       iq: 92,
     },
+    heading: 65,
+    setPieces: 76,
   },
   {
     id: 'modric',
@@ -208,6 +230,8 @@ export const PLAYERS: Player[] = [
       dribbling: 93,
       iq: 99,
     },
+    heading: 58,
+    setPieces: 78,
   },
   {
     id: 'ramos',
@@ -225,6 +249,8 @@ export const PLAYERS: Player[] = [
       dribbling: 71,
       iq: 87,
     },
+    heading: 100,
+    setPieces: 82,
   },
   {
     id: 'van-dijk',
@@ -242,6 +268,8 @@ export const PLAYERS: Player[] = [
       dribbling: 66,
       iq: 96,
     },
+    heading: 96,
+    setPieces: 38,
   },
   {
     id: 'de-bruyne',
@@ -259,6 +287,8 @@ export const PLAYERS: Player[] = [
       dribbling: 86,
       iq: 99,
     },
+    heading: 60,
+    setPieces: 97,
   },
   {
     id: 'suarez',
@@ -276,6 +306,8 @@ export const PLAYERS: Player[] = [
       dribbling: 92,
       iq: 94,
     },
+    heading: 87,
+    setPieces: 74,
   },
   {
     id: 'neymar',
@@ -293,6 +325,8 @@ export const PLAYERS: Player[] = [
       dribbling: 100,
       iq: 98,
     },
+    heading: 52,
+    setPieces: 85,
   },
   {
     id: 'lewandowski',
@@ -310,6 +344,8 @@ export const PLAYERS: Player[] = [
       dribbling: 80,
       iq: 98,
     },
+    heading: 94,
+    setPieces: 72,
   },
   {
     id: 'benzema',
@@ -327,6 +363,8 @@ export const PLAYERS: Player[] = [
       dribbling: 90,
       iq: 95,
     },
+    heading: 84,
+    setPieces: 68,
   },
   {
     id: 'kante',
@@ -344,6 +382,8 @@ export const PLAYERS: Player[] = [
       dribbling: 69,
       iq: 97,
     },
+    heading: 50,
+    setPieces: 40,
   },
   {
     id: 'marcelo',
@@ -361,6 +401,8 @@ export const PLAYERS: Player[] = [
       dribbling: 95,
       iq: 91,
     },
+    heading: 52,
+    setPieces: 65,
   },
   {
     id: 'ibrahimovic',
@@ -378,6 +420,8 @@ export const PLAYERS: Player[] = [
       dribbling: 87,
       iq: 91,
     },
+    heading: 93,
+    setPieces: 90,
   },
   {
     id: 'bale',
@@ -395,6 +439,8 @@ export const PLAYERS: Player[] = [
       dribbling: 89,
       iq: 83,
     },
+    heading: 85,
+    setPieces: 89,
   },
   {
     id: 'milner',
@@ -412,6 +458,8 @@ export const PLAYERS: Player[] = [
       dribbling: 59,
       iq: 87,
     },
+    heading: 62,
+    setPieces: 76,
   },
   {
     id: 'henderson',
@@ -429,6 +477,8 @@ export const PLAYERS: Player[] = [
       dribbling: 61,
       iq: 86,
     },
+    heading: 58,
+    setPieces: 58,
   },
   {
     id: 'giroud',
@@ -446,6 +496,8 @@ export const PLAYERS: Player[] = [
       dribbling: 63,
       iq: 85,
     },
+    heading: 95,
+    setPieces: 65,
   },
   {
     id: 'maguire',
@@ -463,6 +515,8 @@ export const PLAYERS: Player[] = [
       dribbling: 68,
       iq: 65,
     },
+    heading: 88,
+    setPieces: 38,
   },
   {
     id: 'jorginho',
@@ -480,6 +534,8 @@ export const PLAYERS: Player[] = [
       dribbling: 67,
       iq: 94,
     },
+    heading: 42,
+    setPieces: 82,
   },
   {
     id: 'welbeck',
@@ -497,6 +553,8 @@ export const PLAYERS: Player[] = [
       dribbling: 69,
       iq: 71,
     },
+    heading: 65,
+    setPieces: 52,
   },
 
   // Legends / all-time greats
@@ -516,6 +574,8 @@ export const PLAYERS: Player[] = [
       dribbling: 99,
       iq: 100,
     },
+    heading: 62,
+    setPieces: 78,
   },
   {
     id: 'franz-beckenbauer',
@@ -533,6 +593,8 @@ export const PLAYERS: Player[] = [
       dribbling: 75,
       iq: 100,
     },
+    heading: 82,
+    setPieces: 65,
   },
   {
     id: 'alfredo-di-stefano',
@@ -550,6 +612,8 @@ export const PLAYERS: Player[] = [
       dribbling: 94,
       iq: 99,
     },
+    heading: 85,
+    setPieces: 72,
   },
   {
     id: 'george-best',
@@ -567,6 +631,8 @@ export const PLAYERS: Player[] = [
       dribbling: 99,
       iq: 93,
     },
+    heading: 62,
+    setPieces: 70,
   },
   {
     id: 'garrincha',
@@ -584,6 +650,8 @@ export const PLAYERS: Player[] = [
       dribbling: 100,
       iq: 90,
     },
+    heading: 50,
+    setPieces: 52,
   },
   {
     id: 'eusebio',
@@ -601,6 +669,8 @@ export const PLAYERS: Player[] = [
       dribbling: 94,
       iq: 92,
     },
+    heading: 83,
+    setPieces: 76,
   },
   {
     id: 'romario',
@@ -618,6 +688,8 @@ export const PLAYERS: Player[] = [
       dribbling: 94,
       iq: 94,
     },
+    heading: 58,
+    setPieces: 58,
   },
   {
     id: 'rivaldo',
@@ -635,6 +707,8 @@ export const PLAYERS: Player[] = [
       dribbling: 92,
       iq: 94,
     },
+    heading: 62,
+    setPieces: 92,
   },
   {
     id: 'kaka',
@@ -652,6 +726,8 @@ export const PLAYERS: Player[] = [
       dribbling: 94,
       iq: 92,
     },
+    heading: 68,
+    setPieces: 74,
   },
   {
     id: 'andrea-pirlo',
@@ -669,6 +745,8 @@ export const PLAYERS: Player[] = [
       dribbling: 72,
       iq: 99,
     },
+    heading: 48,
+    setPieces: 98,
   },
   {
     id: 'david-beckham',
@@ -686,6 +764,8 @@ export const PLAYERS: Player[] = [
       dribbling: 77,
       iq: 93,
     },
+    heading: 62,
+    setPieces: 100,
   },
   {
     id: 'roberto-carlos',
@@ -703,6 +783,8 @@ export const PLAYERS: Player[] = [
       dribbling: 89,
       iq: 88,
     },
+    heading: 55,
+    setPieces: 96,
   },
   {
     id: 'cafu',
@@ -720,6 +802,8 @@ export const PLAYERS: Player[] = [
       dribbling: 85,
       iq: 94,
     },
+    heading: 62,
+    setPieces: 42,
   },
   {
     id: 'carles-puyol',
@@ -737,6 +821,8 @@ export const PLAYERS: Player[] = [
       dribbling: 52,
       iq: 92,
     },
+    heading: 95,
+    setPieces: 32,
   },
   {
     id: 'franco-baresi',
@@ -754,6 +840,8 @@ export const PLAYERS: Player[] = [
       dribbling: 50,
       iq: 100,
     },
+    heading: 87,
+    setPieces: 45,
   },
   {
     id: 'rio-ferdinand',
@@ -771,6 +859,8 @@ export const PLAYERS: Player[] = [
       dribbling: 68,
       iq: 94,
     },
+    heading: 87,
+    setPieces: 32,
   },
   {
     id: 'john-terry',
@@ -788,6 +878,8 @@ export const PLAYERS: Player[] = [
       dribbling: 45,
       iq: 93,
     },
+    heading: 96,
+    setPieces: 42,
   },
   {
     id: 'ashley-cole',
@@ -805,6 +897,8 @@ export const PLAYERS: Player[] = [
       dribbling: 79,
       iq: 92,
     },
+    heading: 55,
+    setPieces: 42,
   },
   {
     id: 'steven-gerrard',
@@ -822,6 +916,8 @@ export const PLAYERS: Player[] = [
       dribbling: 79,
       iq: 94,
     },
+    heading: 83,
+    setPieces: 85,
   },
   {
     id: 'frank-lampard',
@@ -839,6 +935,8 @@ export const PLAYERS: Player[] = [
       dribbling: 76,
       iq: 95,
     },
+    heading: 80,
+    setPieces: 87,
   },
 
   // Elite / world class
@@ -858,6 +956,8 @@ export const PLAYERS: Player[] = [
       dribbling: 68,
       iq: 99,
     },
+    heading: 58,
+    setPieces: 52,
   },
   {
     id: 'toni-kroos',
@@ -875,6 +975,8 @@ export const PLAYERS: Player[] = [
       dribbling: 62,
       iq: 99,
     },
+    heading: 52,
+    setPieces: 96,
   },
   {
     id: 'thomas-muller',
@@ -892,6 +994,8 @@ export const PLAYERS: Player[] = [
       dribbling: 70,
       iq: 98,
     },
+    heading: 85,
+    setPieces: 52,
   },
   {
     id: 'angel-di-maria',
@@ -909,6 +1013,8 @@ export const PLAYERS: Player[] = [
       dribbling: 94,
       iq: 92,
     },
+    heading: 58,
+    setPieces: 80,
   },
   {
     id: 'arjen-robben',
@@ -926,6 +1032,8 @@ export const PLAYERS: Player[] = [
       dribbling: 99,
       iq: 92,
     },
+    heading: 60,
+    setPieces: 68,
   },
   {
     id: 'franck-ribery',
@@ -943,6 +1051,8 @@ export const PLAYERS: Player[] = [
       dribbling: 98,
       iq: 91,
     },
+    heading: 55,
+    setPieces: 60,
   },
   {
     id: 'eden-hazard',
@@ -960,6 +1070,8 @@ export const PLAYERS: Player[] = [
       dribbling: 100,
       iq: 92,
     },
+    heading: 52,
+    setPieces: 68,
   },
   {
     id: 'wayne-rooney',
@@ -977,6 +1089,8 @@ export const PLAYERS: Player[] = [
       dribbling: 92,
       iq: 95,
     },
+    heading: 87,
+    setPieces: 78,
   },
   {
     id: 'didier-drogba',
@@ -994,6 +1108,8 @@ export const PLAYERS: Player[] = [
       dribbling: 80,
       iq: 91,
     },
+    heading: 96,
+    setPieces: 72,
   },
   {
     id: 'samuel-etoo',
@@ -1011,6 +1127,8 @@ export const PLAYERS: Player[] = [
       dribbling: 89,
       iq: 91,
     },
+    heading: 80,
+    setPieces: 60,
   },
   {
     id: 'robin-van-persie',
@@ -1028,6 +1146,8 @@ export const PLAYERS: Player[] = [
       dribbling: 88,
       iq: 94,
     },
+    heading: 90,
+    setPieces: 84,
   },
   {
     id: 'mesut-ozil',
@@ -1045,6 +1165,8 @@ export const PLAYERS: Player[] = [
       dribbling: 92,
       iq: 99,
     },
+    heading: 52,
+    setPieces: 90,
   },
   {
     id: 'cesc-fabregas',
@@ -1062,6 +1184,8 @@ export const PLAYERS: Player[] = [
       dribbling: 70,
       iq: 96,
     },
+    heading: 55,
+    setPieces: 80,
   },
   {
     id: 'david-silva',
@@ -1079,6 +1203,8 @@ export const PLAYERS: Player[] = [
       dribbling: 96,
       iq: 96,
     },
+    heading: 48,
+    setPieces: 75,
   },
   {
     id: 'bernardo-silva',
@@ -1096,6 +1222,8 @@ export const PLAYERS: Player[] = [
       dribbling: 95,
       iq: 96,
     },
+    heading: 50,
+    setPieces: 65,
   },
   {
     id: 'antoine-griezmann',
@@ -1113,6 +1241,8 @@ export const PLAYERS: Player[] = [
       dribbling: 88,
       iq: 98,
     },
+    heading: 72,
+    setPieces: 82,
   },
   {
     id: 'son-heung-min',
@@ -1130,6 +1260,8 @@ export const PLAYERS: Player[] = [
       dribbling: 92,
       iq: 90,
     },
+    heading: 65,
+    setPieces: 62,
   },
   {
     id: 'mohamed-salah',
@@ -1147,6 +1279,8 @@ export const PLAYERS: Player[] = [
       dribbling: 94,
       iq: 92,
     },
+    heading: 60,
+    setPieces: 70,
   },
 
   // Current / trending
@@ -1166,6 +1300,8 @@ export const PLAYERS: Player[] = [
       dribbling: 98,
       iq: 93,
     },
+    heading: 68,
+    setPieces: 75,
   },
   {
     id: 'erling-haaland',
@@ -1183,6 +1319,8 @@ export const PLAYERS: Player[] = [
       dribbling: 80,
       iq: 94,
     },
+    heading: 90,
+    setPieces: 58,
   },
   {
     id: 'harry-kane',
@@ -1200,6 +1338,8 @@ export const PLAYERS: Player[] = [
       dribbling: 84,
       iq: 98,
     },
+    heading: 92,
+    setPieces: 86,
   },
   {
     id: 'vinicius-junior',
@@ -1217,6 +1357,8 @@ export const PLAYERS: Player[] = [
       dribbling: 99,
       iq: 91,
     },
+    heading: 52,
+    setPieces: 52,
   },
   {
     id: 'jude-bellingham',
@@ -1234,6 +1376,8 @@ export const PLAYERS: Player[] = [
       dribbling: 88,
       iq: 97,
     },
+    heading: 84,
+    setPieces: 70,
   },
   {
     id: 'rodri',
@@ -1251,6 +1395,8 @@ export const PLAYERS: Player[] = [
       dribbling: 72,
       iq: 99,
     },
+    heading: 76,
+    setPieces: 78,
   },
   {
     id: 'lamine-yamal',
@@ -1268,6 +1414,8 @@ export const PLAYERS: Player[] = [
       dribbling: 99,
       iq: 92,
     },
+    heading: 52,
+    setPieces: 65,
   },
   {
     id: 'bukayo-saka',
@@ -1285,6 +1433,8 @@ export const PLAYERS: Player[] = [
       dribbling: 91,
       iq: 91,
     },
+    heading: 60,
+    setPieces: 78,
   },
   {
     id: 'phil-foden',
@@ -1302,6 +1452,8 @@ export const PLAYERS: Player[] = [
       dribbling: 95,
       iq: 93,
     },
+    heading: 52,
+    setPieces: 65,
   },
   {
     id: 'cole-palmer',
@@ -1319,6 +1471,8 @@ export const PLAYERS: Player[] = [
       dribbling: 88,
       iq: 95,
     },
+    heading: 52,
+    setPieces: 82,
   },
   {
     id: 'florian-wirtz',
@@ -1336,6 +1490,8 @@ export const PLAYERS: Player[] = [
       dribbling: 92,
       iq: 94,
     },
+    heading: 52,
+    setPieces: 80,
   },
   {
     id: 'jamal-musiala',
@@ -1353,6 +1509,8 @@ export const PLAYERS: Player[] = [
       dribbling: 97,
       iq: 93,
     },
+    heading: 52,
+    setPieces: 55,
   },
   {
     id: 'pedri',
@@ -1370,6 +1528,8 @@ export const PLAYERS: Player[] = [
       dribbling: 91,
       iq: 99,
     },
+    heading: 48,
+    setPieces: 60,
   },
   {
     id: 'federico-valverde',
@@ -1387,6 +1547,8 @@ export const PLAYERS: Player[] = [
       dribbling: 80,
       iq: 92,
     },
+    heading: 78,
+    setPieces: 70,
   },
   {
     id: 'declan-rice',
@@ -1404,6 +1566,8 @@ export const PLAYERS: Player[] = [
       dribbling: 72,
       iq: 93,
     },
+    heading: 84,
+    setPieces: 68,
   },
 
   // Strong / solid players
@@ -1423,6 +1587,8 @@ export const PLAYERS: Player[] = [
       dribbling: 85,
       iq: 92,
     },
+    heading: 80,
+    setPieces: 58,
   },
   {
     id: 'romelu-lukaku',
@@ -1440,6 +1606,8 @@ export const PLAYERS: Player[] = [
       dribbling: 74,
       iq: 85,
     },
+    heading: 84,
+    setPieces: 52,
   },
   {
     id: 'marcus-rashford',
@@ -1457,6 +1625,8 @@ export const PLAYERS: Player[] = [
       dribbling: 87,
       iq: 79,
     },
+    heading: 58,
+    setPieces: 68,
   },
   {
     id: 'riyad-mahrez',
@@ -1474,6 +1644,8 @@ export const PLAYERS: Player[] = [
       dribbling: 97,
       iq: 89,
     },
+    heading: 48,
+    setPieces: 84,
   },
   {
     id: 'raheem-sterling',
@@ -1491,6 +1663,8 @@ export const PLAYERS: Player[] = [
       dribbling: 91,
       iq: 80,
     },
+    heading: 52,
+    setPieces: 52,
   },
   {
     id: 'bruno-fernandes',
@@ -1508,6 +1682,8 @@ export const PLAYERS: Player[] = [
       dribbling: 82,
       iq: 95,
     },
+    heading: 65,
+    setPieces: 90,
   },
   {
     id: 'casemiro',
@@ -1525,6 +1701,8 @@ export const PLAYERS: Player[] = [
       dribbling: 60,
       iq: 92,
     },
+    heading: 86,
+    setPieces: 55,
   },
   {
     id: 'fabinho',
@@ -1542,6 +1720,8 @@ export const PLAYERS: Player[] = [
       dribbling: 58,
       iq: 90,
     },
+    heading: 68,
+    setPieces: 42,
   },
   {
     id: 'fernandinho',
@@ -1559,6 +1739,8 @@ export const PLAYERS: Player[] = [
       dribbling: 69,
       iq: 93,
     },
+    heading: 65,
+    setPieces: 42,
   },
   {
     id: 'ivan-rakitic',
@@ -1576,6 +1758,8 @@ export const PLAYERS: Player[] = [
       dribbling: 69,
       iq: 92,
     },
+    heading: 55,
+    setPieces: 78,
   },
   {
     id: 'edinson-cavani',
@@ -1593,6 +1777,8 @@ export const PLAYERS: Player[] = [
       dribbling: 79,
       iq: 94,
     },
+    heading: 92,
+    setPieces: 58,
   },
   {
     id: 'jamie-vardy',
@@ -1610,6 +1796,8 @@ export const PLAYERS: Player[] = [
       dribbling: 74,
       iq: 83,
     },
+    heading: 65,
+    setPieces: 42,
   },
   {
     id: 'marco-reus',
@@ -1627,6 +1815,8 @@ export const PLAYERS: Player[] = [
       dribbling: 88,
       iq: 91,
     },
+    heading: 60,
+    setPieces: 75,
   },
 
   // Chaos / average / unexpected picks
@@ -1646,6 +1836,8 @@ export const PLAYERS: Player[] = [
       dribbling: 84,
       iq: 58,
     },
+    heading: 48,
+    setPieces: 55,
   },
   {
     id: 'martin-braithwaite',
@@ -1663,6 +1855,8 @@ export const PLAYERS: Player[] = [
       dribbling: 68,
       iq: 64,
     },
+    heading: 62,
+    setPieces: 48,
   },
   {
     id: 'adama-traore',
@@ -1680,6 +1874,8 @@ export const PLAYERS: Player[] = [
       dribbling: 83,
       iq: 52,
     },
+    heading: 55,
+    setPieces: 35,
   },
   {
     id: 'joao-felix',
@@ -1697,6 +1893,8 @@ export const PLAYERS: Player[] = [
       dribbling: 88,
       iq: 74,
     },
+    heading: 50,
+    setPieces: 62,
   },
   {
     id: 'franco-mastantuono',
@@ -1714,6 +1912,8 @@ export const PLAYERS: Player[] = [
       dribbling: 84,
       iq: 78,
     },
+    heading: 48,
+    setPieces: 58,
   },
   {
     id: 'dele-alli',
@@ -1731,6 +1931,8 @@ export const PLAYERS: Player[] = [
       dribbling: 77,
       iq: 82,
     },
+    heading: 75,
+    setPieces: 55,
   },
   {
     id: 'jackson',
@@ -1748,6 +1950,8 @@ export const PLAYERS: Player[] = [
       dribbling: 79,
       iq: 70,
     },
+    heading: 65,
+    setPieces: 42,
   },
   {
     id: 'adebayo-akinfenwa',
@@ -1765,6 +1969,8 @@ export const PLAYERS: Player[] = [
       dribbling: 68,
       iq: 72,
     },
+    heading: 75,
+    setPieces: 38,
   },
   {
     id: 'divock-origi',
@@ -1782,6 +1988,8 @@ export const PLAYERS: Player[] = [
       dribbling: 72,
       iq: 68,
     },
+    heading: 68,
+    setPieces: 42,
   },
   {
     id: 'jesse-lingard',
@@ -1799,6 +2007,8 @@ export const PLAYERS: Player[] = [
       dribbling: 79,
       iq: 69,
     },
+    heading: 52,
+    setPieces: 55,
   },
   {
     id: 'ross-barkley',
@@ -1816,6 +2026,8 @@ export const PLAYERS: Player[] = [
       dribbling: 79,
       iq: 73,
     },
+    heading: 58,
+    setPieces: 60,
   },
   {
     id: 'khvicha-kvaratskhelia',
@@ -1833,6 +2045,8 @@ export const PLAYERS: Player[] = [
       dribbling: 94,
       iq: 91,
     },
+    heading: 52,
+    setPieces: 62,
   },
   {
     id: 'daniel-james',
@@ -1850,6 +2064,8 @@ export const PLAYERS: Player[] = [
       dribbling: 78,
       iq: 59,
     },
+    heading: 48,
+    setPieces: 38,
   },
   {
     id: 'marcos-rojo',
@@ -1867,6 +2083,8 @@ export const PLAYERS: Player[] = [
       dribbling: 45,
       iq: 57,
     },
+    heading: 78,
+    setPieces: 32,
   },
   {
     id: 'eric-bailly',
@@ -1884,6 +2102,8 @@ export const PLAYERS: Player[] = [
       dribbling: 54,
       iq: 51,
     },
+    heading: 76,
+    setPieces: 30,
   },
 
   // Additional Defenders
@@ -1903,6 +2123,8 @@ export const PLAYERS: Player[] = [
       dribbling: 61,
       iq: 91,
     },
+    heading: 93,
+    setPieces: 32,
   },
   {
     id: 'nemanja-vidic',
@@ -1920,6 +2142,8 @@ export const PLAYERS: Player[] = [
       dribbling: 42,
       iq: 91,
     },
+    heading: 98,
+    setPieces: 28,
   },
   {
     id: 'thiago-silva',
@@ -1937,6 +2161,8 @@ export const PLAYERS: Player[] = [
       dribbling: 64,
       iq: 98,
     },
+    heading: 91,
+    setPieces: 35,
   },
   {
     id: 'gerard-pique',
@@ -1954,6 +2180,8 @@ export const PLAYERS: Player[] = [
       dribbling: 61,
       iq: 96,
     },
+    heading: 88,
+    setPieces: 40,
   },
   {
     id: 'raphael-varane',
@@ -1971,6 +2199,8 @@ export const PLAYERS: Player[] = [
       dribbling: 52,
       iq: 91,
     },
+    heading: 87,
+    setPieces: 30,
   },
   {
     id: 'diego-godin',
@@ -1988,6 +2218,8 @@ export const PLAYERS: Player[] = [
       dribbling: 40,
       iq: 94,
     },
+    heading: 94,
+    setPieces: 30,
   },
   {
     id: 'pepe',
@@ -2005,6 +2237,8 @@ export const PLAYERS: Player[] = [
       dribbling: 43,
       iq: 89,
     },
+    heading: 90,
+    setPieces: 32,
   },
   {
     id: 'giorgio-chiellini',
@@ -2022,6 +2256,8 @@ export const PLAYERS: Player[] = [
       dribbling: 39,
       iq: 95,
     },
+    heading: 90,
+    setPieces: 30,
   },
   {
     id: 'philipp-lahm',
@@ -2039,6 +2275,8 @@ export const PLAYERS: Player[] = [
       dribbling: 86,
       iq: 99,
     },
+    heading: 62,
+    setPieces: 58,
   },
   {
     id: 'javier-zanetti',
@@ -2056,6 +2294,8 @@ export const PLAYERS: Player[] = [
       dribbling: 80,
       iq: 96,
     },
+    heading: 70,
+    setPieces: 52,
   },
   {
     id: 'rayan-cherki',
@@ -2073,6 +2313,8 @@ export const PLAYERS: Player[] = [
       dribbling: 99,
       iq: 95,
     },
+    heading: 52,
+    setPieces: 76,
   },
   {
     id: 'phil-jones',
@@ -2090,6 +2332,8 @@ export const PLAYERS: Player[] = [
       dribbling: 44,
       iq: 64,
     },
+    heading: 76,
+    setPieces: 32,
   },
   {
     id: 'sergio-aguero',
@@ -2107,6 +2351,8 @@ export const PLAYERS: Player[] = [
       dribbling: 94,
       iq: 94,
     },
+    heading: 62,
+    setPieces: 70,
   },
   {
     id: 'david-luiz',
@@ -2124,6 +2370,8 @@ export const PLAYERS: Player[] = [
       dribbling: 60,
       iq: 69,
     },
+    heading: 87,
+    setPieces: 82,
   },
   {
     id: 'ferenc-puskas',
@@ -2141,5 +2389,7 @@ export const PLAYERS: Player[] = [
       dribbling: 96,
       iq: 97,
     },
+    heading: 80,
+    setPieces: 93,
   },
 ]

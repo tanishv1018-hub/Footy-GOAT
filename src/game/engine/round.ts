@@ -1,5 +1,5 @@
 import type { DraftSelection, GameState } from '../types/draft'
-import type { Player } from '../types/player'
+import { getPlayerRating, type Player } from '../types/player'
 import type { Trait } from '../types/trait'
 
 /**
@@ -86,8 +86,9 @@ export function rerollPlayer(state: GameState, pool: Player[]): GameState {
  *
  * This is the boundary where the full `Player` (with ratings) gets narrowed
  * down to a `DraftSelection`: only the chosen trait's rating is kept, and the
- * player is stored without its `ratings` object, so the result can be handed
- * to draft-time UI without exposing the player's other 6 hidden ratings.
+ * player is stored without `ratings`, `heading`, or `setPieces`, so the
+ * result can be handed to draft-time UI without exposing the player's other
+ * 8 hidden ratings.
  */
 export function selectTrait(state: GameState, trait: Trait): DraftSelection {
   if (!state.currentPlayer) {
@@ -97,13 +98,15 @@ export function selectTrait(state: GameState, trait: Trait): DraftSelection {
     throw new Error(`Trait "${trait}" is not available for selection.`)
   }
 
-  const { ratings, ...publicPlayer } = state.currentPlayer
+  const rating = getPlayerRating(state.currentPlayer, trait)
+  const { ratings: _ratings, heading: _heading, setPieces: _setPieces, ...publicPlayer } =
+    state.currentPlayer
 
   return {
     round: state.round,
     trait,
     player: publicPlayer,
-    rating: ratings[trait],
+    rating,
   }
 }
 
