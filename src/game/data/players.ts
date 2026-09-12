@@ -1701,7 +1701,7 @@ export const PLAYERS: Player[] = [
       dribbling: 60,
       iq: 92,
     },
-    heading: 91,
+    heading: 96,
     setPieces: 55,
   },
   {
