@@ -1626,7 +1626,7 @@ export const PLAYERS: Player[] = [
       iq: 79,
     },
     heading: 76,
-    setPieces: 88,
+    setPieces: 92,
   },
   {
     id: 'riyad-mahrez',
